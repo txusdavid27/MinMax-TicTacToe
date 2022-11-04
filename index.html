@@ -2,36 +2,40 @@
 <html>
 	<head>
 		<!--
-		Tic Tac Toe with Minimax AI Algorithm
-		Author: Clederson Cruz
-		Year: 2017
-		License: GNU GENERAL PUBLIC LICENSE (GPL)
-		-->
-
+		Tic Tac Toe con Algorítmo MINMAX
+		Por: Angie Castro, Gabriel De Souza, Jesús David Traslaviña.
+		Año: 2022. -->
 		<meta charset="UTF-8" />
-		<meta content="Clederson Cruz" name="author" />
+		<meta content="Análisis de Algorítmos" name="developers" />
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link type="text/css" rel="stylesheet" href="web_version/style.css" />
-		<script type="text/javascript" src="web_version/script.js"></script>
-		<title>Jogo da Velha - Minimax</title>
+		<link type="text/css" rel="stylesheet" href="front/style.css" />
+		<script type="text/javascript" src="front/script.js"></script>
+		<title>ProyectoADA</title>
 	</head>
 	<body>
 		<header>
-			<p>Minimax Algorithm</p>
+			<p>Algorítmo MINMAX - SEGUNDO ENTREGABLE
+			</p>
+			<h4>
+				Angie-Gabriel-Jesús
+			</h4>
+			<img height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Javeriana.svg/1200px-Javeriana.svg.png">
+			<br>
 		</header>
 			<br />
 			<p id="message"></p>
 			<br />
+			<!--PARA EL 3X3 NORMAL-->
 		<table id="tab-tic-tac-toe" cellspacing="0">
-			<tr><td id="00" onclick="clickedCell(this)"></td><td id="01" onclick="clickedCell(this)"></td><td id="02" onclick="clickedCell(this)"></td></tr>
-			<tr><td id="10" onclick="clickedCell(this)"></td><td id="11" onclick="clickedCell(this)"></td><td id="12" onclick="clickedCell(this)"></td></tr>
-			<tr><td id="20" onclick="clickedCell(this)"></td><td id="21" onclick="clickedCell(this)"></td><td id="22" onclick="clickedCell(this)"></td></tr>
+			<tr><td id="00" onclick="celdaSeleccionada(this)"></td><td id="01" onclick="celdaSeleccionada(this)"></td><td id="02" onclick="celdaSeleccionada(this)"></td></tr>
+			<tr><td id="10" onclick="celdaSeleccionada(this)"></td><td id="11" onclick="celdaSeleccionada(this)"></td><td id="12" onclick="celdaSeleccionada(this)"></td></tr>
+			<tr><td id="20" onclick="celdaSeleccionada(this)"></td><td id="21" onclick="celdaSeleccionada(this)"></td><td id="22" onclick="celdaSeleccionada(this)"></td></tr>
 		</table>
 		<br><br>
-		<input type="button" value="Start AI" id="bnt-restart" onclick="restartBnt(this)"/>
+		<input type="button" value="Iniciar MINMAX" id="bnt-restart" onclick="restartBnt(this)"/>
 		<br />
 		<footer>
-			<p>Read more on: <a href="https://github.com/Cledersonbc/tic-tac-toe-minimax/blob/master/README.md">Github</a></p>
+			<p>Repositorio: <a href="https://github.com/txusdavid27/MinMax-TicTacToe.git">GitHub</a></p>
 		</footer>
 	</body>
 </html>
