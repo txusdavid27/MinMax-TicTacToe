@@ -5,4 +5,3 @@ Una implementación del algoritmo Minimax AI en el juego Tic-Tac-Toe (o Noughts 
 
 
 * Wikipédia: <https://en.wikipedia.org/wiki/Minimax>
-* Nanyang Technological University: <https://www.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe_AI.html>
